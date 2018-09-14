@@ -1,0 +1,144 @@
+/*Global*/
+* {
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+button {
+    background-color: #d3e057;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+strong {
+    background-color: white;
+}
+
+/*App bar*/
+h1 {
+    color: white;
+    background-color: #3f51b5;
+}
+
+/*Channels list*/
+li {
+    background-color: white;
+    list-style-type: none;
+    padding: 16px;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+    height: 15px;
+}
+
+/* Highlighting currently selected channel */
+ul li.selected-channel {
+    border-left: 4px solid #3f51b5;
+    color: #3f51b5;
+}
+
+/* EVERYTHING FROM LINE 41 TO LINE 68 IS RELATED TO THE TAB BAR BUTTONS */
+/*Tab bar*/
+div#tab-bar {
+    background-color: white;
+    white-space: nowrap;
+}
+
+/* Tab bar buttons editing */
+div#tab-bar button {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    height: 72px;
+    width: 33%; 
+}
+
+/* Margin between the button icon and the button text */
+div#tab-bar button span {
+    margin-top: 4px;
+    display: block;
+}
+
+#tab-bar button.selected {
+    border-bottom: 4px solid #3f51b5;
+    color: #3f51b5;
+}
+/*END OF TAB BAR EDITING*/
+
+/* EVERYTHING FROM LINE 71 TO LINE 106 IS RELATED TO CHAT-MESSAGES*/
+/*Messages bars*/
+div.chat-message {
+    width: 80%;
+    padding-left: 2.5%;
+    background-color: #eaeaea; 
+    
+}
+
+/*Own message bar*/
+div.own {
+    width: 80%;
+    padding-left: 17.5%;
+}
+
+/*This converts the white-blocks of the <p> elements where the chat-messages are*/
+div.chat-message p {
+    height: 18px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+/*Does the same as the one above but only for the own chat message*/
+div.own p {
+    height: 18px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+/*Creates the margin space between each <div> to its neighbour down under*/
+div.chat-message button {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+/* END OF CHAT MESSAGES EDITING SECTION */
+
+mark a {
+    color: black;
+    text-transform: uppercase;
+    font-size: medium; 
+    display: inline-block;
+}
+
+div.chat-message button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+em {
+    background-color: #eaeaea;
+    font-size: larger;
+    font-style: normal;
+}
+
+p {
+    background-color: white;
+}
+
+b {
+    background-color: #3f51b5;
+    text-transform: uppercase;
+}
+
+img {
+    background-color: transparent;
+    /*Vertically aligning all the in-line icons (the stars next to the channel names) */
+    vertical-align: middle;
+}
+
+span {
+    background-color: transparent;
+}
